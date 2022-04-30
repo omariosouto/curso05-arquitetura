@@ -1,4 +1,4 @@
-import { customRender, screen } from "@alura/test-commons/react-testing-library";
+import { customRender } from "@alura/test-commons/react-testing-library";
 import { Text } from "./index";
 
 const render = customRender();

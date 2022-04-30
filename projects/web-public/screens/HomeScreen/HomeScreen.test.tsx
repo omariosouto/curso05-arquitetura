@@ -1,5 +1,5 @@
-import { customRender, screen } from "@alura/test-commons/react-testing-library";
-import { AllProviders } from '../../components/AllProviders';
+import { customRender } from "@alura/test-commons/react-testing-library";
+import { AllProviders } from "../../components/AllProviders";
 import { HomeScreen } from "./HomeScreen";
 
 // Aqui podemos customizar os valores padrão dos providers para cada teste

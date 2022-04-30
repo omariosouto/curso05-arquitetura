@@ -1,4 +1,4 @@
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from "styled-components";
 
 const theme = {
   colors: {
@@ -12,5 +12,5 @@ export function AllProviders({ children }) {
       Provider Here!
       {children}
     </ThemeProvider>
-  )
+  );
 }
