@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> renders the page 1`] = `
+.c0 {
+  font-family: sans-serif;
+}
+
+<div>
+  Provider Here!
+  <div>
+    <h1
+      class="c0"
+    >
+      Home do Projeto
+    </h1>
+    <p
+      class="c0"
+    >
+      @alura/utils/math/sum: sum(2,2) = 
+      4
+    </p>
+  </div>
+</div>
+`;

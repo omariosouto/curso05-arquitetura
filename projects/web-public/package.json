@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint './**/*.{ts,tsx}'",
-    "test": "echo 'Not implemented'"
+    "test": "jest"
   },
   "dependencies": {
     "@alura/design-system": "*",

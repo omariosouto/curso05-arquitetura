@@ -1,4 +1,5 @@
-import { createGlobalStyle, ThemeProvider } from "styled-components";
+import { createGlobalStyle } from "styled-components";
+import { AllProviders } from "../components/AllProviders";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -8,19 +9,13 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const theme = {
-  colors: {
-    primary: "#0070f3",
-  },
-};
-
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
+      <AllProviders>
+        <GlobalStyle />
         <Component {...pageProps} />
-      </ThemeProvider>
+      </AllProviders>
     </>
   );
 }
