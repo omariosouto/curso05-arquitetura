@@ -11,14 +11,17 @@
     ]
   },
   "scripts": {
+    "lint": "yarn workspaces run lint",
     "web-public": "yarn workspace @alura/web-public",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build"
   },
   "devDependencies": {
+    "eslint": "8.14.0",
+    "prettier": "2.6.2",
     "@types/styled-components": "5.1.25",
     "@types/node": "^17.0.30",
     "@types/react": "^18.0.8",
-    "typescript": "^4.6.4"
+    "typescript": "4.5.5"
   }
 }

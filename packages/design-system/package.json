@@ -2,8 +2,15 @@
   "name": "@alura/design-system",
   "version": "1.0.0",
   "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
   "dependencies": {
     "styled-components": "5.3.5",
     "@alura/utils": "*"
+  },
+  "devDependencies": {
+    "@alura/eslint-commons": "*"
   }
 }

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "next start",
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "lint": "eslint './**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@alura/design-system": "*",
@@ -18,6 +19,7 @@
     "next-transpile-modules": "9.0.0"
   },
   "devDependencies": {
-    "@alura/tsconfig-commons": "*"
+    "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*"
   }
 }
