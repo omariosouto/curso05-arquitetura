@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint './**/*.{ts,tsx}'",
-    "test": "echo 'Not implemented'"
+    "test": "jest"
   },
   "dependencies": {
     "styled-components": "5.3.5",
