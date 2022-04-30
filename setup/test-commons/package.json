@@ -9,6 +9,7 @@
     "base.ts"
   ],
   "devDependencies": {
+    "@testing-library/react": "13.1.1",
     "jest": "27.0.0",
     "ts-node": "10.7.0",
     "babel-jest": "28.0.3",
