@@ -7,6 +7,7 @@
     "base.json"
   ],
   "scripts": {
-    "lint": "echo 'Not implemented'"
+    "lint": "echo 'Not implemented'",
+    "test": "echo 'Not implemented'"
   }
 }
