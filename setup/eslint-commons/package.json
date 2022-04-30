@@ -7,9 +7,11 @@
     "base.js"
   ],
   "scripts": {
-    "lint": "echo 'Not implemented'"
+    "lint": "echo 'Not implemented'",
+    "test": "echo 'Not implemented'"
   },
   "dependencies": {
+    "eslint-plugin-jest": "26.1.5",
     "eslint-config-next": "12.1.5",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",

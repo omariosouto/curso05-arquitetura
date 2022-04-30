@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@alura/tsconfig-commons": "*",
-    "@alura/eslint-commons": "*"
+    "@alura/eslint-commons": "*",
+    "@alura/test-commons": "*"
   }
 }

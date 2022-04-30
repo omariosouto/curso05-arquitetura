@@ -4,13 +4,15 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint './**/*.{ts,tsx}'"
+    "lint": "eslint './**/*.{ts,tsx}'",
+    "test": "jest"
   },
   "dependencies": {
     "styled-components": "5.3.5",
     "@alura/utils": "*"
   },
   "devDependencies": {
-    "@alura/eslint-commons": "*"
+    "@alura/eslint-commons": "*",
+    "@alura/test-commons": "*"
   }
 }
